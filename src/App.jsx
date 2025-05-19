@@ -5,11 +5,21 @@ import "./App.css";
 import axios from "axios";
 import ChildParentDataFlow from "./ChildParentDataFlow";
 import Accordian from "./accordion";
+import RandomColor from "./random-color";
+import StarRating from "./star-rating";
 
 function App() {
   return (
     <>
+      {/* Accordian component */}
+
       <Accordian />
+
+      {/* Random color */}
+      <RandomColor />
+
+      {/* star rating component */}
+      <StarRating />
     </>
   );
 }
